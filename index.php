@@ -30,16 +30,23 @@
     <div class="container" style="margin-top: 50px;">
 
       <div class="col-md-4">
-        
-        <div class="list-group">
-          <a href="#" class="list-group-item">
-            <h4 class="list-group-item-heading">List group item heading</h4>
-            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-          </a>
-          <a href="#" class="list-group-item">
-            <h4 class="list-group-item-heading">List group item heading</h4>
-            <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-          </a>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">Utilidades</div>
+         
+  
+            <div class="list-group">
+              <a href="http://getbootstrap.com/components/" class="list-group-item">
+                <h4 class="list-group-item-heading">Bootstrap para todos!</h4>
+                <p class="list-group-item-text">Esta es la pagina oficial de Bootstrap, acceder a la documentacion oficial desde este link.</p>
+              </a>
+              <a href="https://bootswatch.com/lumen/" class="list-group-item">
+                <h4 class="list-group-item-heading">Bootswatch, un tema para mi bootstrap</h4>
+                <p class="list-group-item-text">Web de temas para bootstrap, un acceso a la documentacion de la plantilla usada en esta pagina.</p>
+              </a>
+            </div>
+
+         
         </div>
 
       </div>
@@ -52,7 +59,16 @@
             </div>
             <div class="panel-body">
               
-              hola
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="pagina2/" class="thumbnail">
+                    <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                    &nbsp; Formulario basico
+                  </a>
+
+                </div>
+                
+              </div>
 
             </div>
           </div>
